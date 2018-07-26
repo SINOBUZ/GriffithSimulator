@@ -4,10 +4,96 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sounds name="sound">
+    <sound>sound\click</sound>
+    <sound>sound\sound_mainmenu</sound>
+  </sounds>
+  <sprites name="sprites">
+    <sprite>sprites\spr_griffith</sprite>
+    <sprite>sprites\spr_logo</sprite>
+    <sprite>sprites\spr_start</sprite>
+    <sprite>sprites\spr_howto</sprite>
+    <sprite>sprites\spr_back</sprite>
+    <sprite>sprites\spr_explain</sprite>
+    <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\sprite28</sprite>
+    <sprite>sprites\spr_salive</sprite>
+    <sprite>sprites\spr_sdead</sprite>
+    <sprite>sprites\spr_ralive</sprite>
+    <sprite>sprites\spr_rdead</sprite>
+    <sprite>sprites\spr_dsdr</sprite>
+    <sprite>sprites\spr_dsar</sprite>
+    <sprite>sprites\spr_asar</sprite>
+    <sprite>sprites\spr_asdr</sprite>
+    <sprite>sprites\spr_ramp</sprite>
+    <sprite>sprites\spr_Save</sprite>
+    <sprite>sprites\spr_load</sprite>
+    <sprite>sprites\spr_dead</sprite>
+    <sprite>sprites\spr_menu</sprite>
+    <sprites name="spr_end">
+      <sprite>sprites\spr_end1</sprite>
+      <sprite>sprites\spr_end2</sprite>
+      <sprite>sprites\spr_end3</sprite>
+      <sprite>sprites\spr_end4</sprite>
+      <sprite>sprites\spr_end5</sprite>
+      <sprite>sprites\spr_end6</sprite>
+      <sprite>sprites\spr_end7</sprite>
+      <sprite>sprites\spr_end8</sprite>
+    </sprites>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_mainmenu</background>
+    <background>background\background1</background>
+  </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font_mainmenu</font>
+    <font>fonts\font_ingame</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_griffith</object>
+    <object>objects\obj_logo</object>
+    <object>objects\obj_musicsys</object>
+    <object>objects\obj_start</object>
+    <object>objects\obj_howto</object>
+    <object>objects\obj_back</object>
+    <object>objects\obj_explain</object>
+    <object>objects\obj_drawcollect</object>
+    <object>objects\obj_mouse</object>
+    <object>objects\obj_livemouse</object>
+    <object>objects\obj_s</object>
+    <object>objects\obj_r</object>
+    <object>objects\obj_ramp</object>
+    <object>objects\obj_Save</object>
+    <object>objects\obj_load</object>
+    <object>objects\obj_deadmau5</object>
+    <object>objects\obj_menu</object>
+    <objects name="obj_resultgroup">
+      <object>objects\obj_end1</object>
+      <object>objects\obj_end2</object>
+      <object>objects\obj_end3</object>
+      <object>objects\obj_end4</object>
+      <object>objects\obj_end5</object>
+      <object>objects\obj_end6</object>
+      <object>objects\obj_end7</object>
+      <object>objects\obj_end8</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room_mainmenu</room>
+    <room>rooms\room_howtoplay</room>
+    <room>rooms\room_play</room>
+    <rooms name="result">
+      <room>rooms\room_result1</room>
+      <room>rooms\room_result2</room>
+      <room>rooms\room_result3</room>
+      <room>rooms\room_result4</room>
+      <room>rooms\room_result5</room>
+      <room>rooms\room_result6</room>
+      <room>rooms\room_result7</room>
+      <room>rooms\room_result8</room>
+    </rooms>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
